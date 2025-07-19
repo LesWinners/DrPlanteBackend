@@ -47,3 +47,12 @@ npm start
 ```
 
 Le serveur sera accessible sur `http://localhost:5000`
+
+## 🔧 Configuration
+
+### Variables d'environnement
+
+| Variable | Description | Défaut |
+|----------|-------------|--------|
+| `MONGO_URI` | URI de connexion MongoDB | `mongodb://localhost:27017/docteur-plante` |
+| `PORT` | Port du serveur | `5000` |
